@@ -1,0 +1,197 @@
+#page .logos-grid {
+  margin-bottom: -40px;
+}
+.logos-grid .wf-cell {
+  display: none;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.logos-grid a {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  line-height: 0;
+  -webkit-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+}
+.logos-grid a:hover {
+  opacity: 0.7;
+}
+.logos-grid img {
+  max-width: 100%;
+  height: auto;
+}
+.logo-items li {
+  text-align: center;
+}
+.logo-items li a {
+  line-height: 0;
+  font-size: 0;
+  opacity: 1;
+  -webkit-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+}
+.logo-items img {
+  max-width: 100%;
+  height: auto;
+}
+.logo-items li a:hover {
+  opacity: 0.8;
+}
+#page .benefits-grid {
+  margin-bottom: -40px;
+}
+#page .benefits-style-one.benefits-grid,
+#page .benefits-style-two.benefits-grid {
+  margin-bottom: -30px;
+}
+.benefits-grid .wf-cell {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.benefits-grid br,
+.benefits-grid > .wf-cell {
+  display: none;
+}
+.benefits-style-one.benefits-grid .wf-cell,
+.benefits-style-two.benefits-grid .wf-cell {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.benefits-style-one.benefits-grid.static-line .wf-cell,
+.benefits-style-one.benefits-grid.hover-line .wf-cell,
+.benefits-style-two.benefits-grid.static-line .wf-cell,
+.benefits-style-two.benefits-grid.hover-line .wf-cell {
+  margin-bottom: 40px;
+}
+.benefits-style-one .wf-table,
+.benefits-style-two .wf-table {
+  width: auto;
+}
+.benefits-style-two.benefits-grid .wf-td {
+  vertical-align: top;
+}
+.benefits-style-one.benefits-grid .wf-td {
+  padding-bottom: 0px;
+}
+.benefits-inner {
+  margin-top: -5px;
+}
+.benefit-line-decoration,
+.benefits-style-one .wf-cell > div,
+.benefits-style-two .benefits-inner {
+  position: relative;
+}
+.hover-line .benefit-line-decoration,
+.static-line .benefit-line-decoration {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.hover-line.benefits-style-one .wf-cell > div,
+.static-line.benefits-style-one .wf-cell > div,
+.hover-line.benefits-style-two .benefits-inner,
+.static-line.benefits-style-two .benefits-inner {
+  padding-bottom: 25px;
+}
+.hover-line .benefit-line-decoration:after,
+.static-line .benefit-line-decoration:after,
+.hover-line.benefits-style-one .wf-cell > div:after,
+.hover-line.benefits-style-two .benefits-inner:after,
+.static-line.benefits-style-one .wf-cell > div:after,
+.static-line.benefits-style-two .benefits-inner:after {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -25px;
+  width: 50px;
+  height: 2px;
+  content: "";
+}
+.hover-line.benefits-style-one .wf-cell > div:after,
+.hover-line.benefits-style-two .benefits-inner:after,
+.static-line.benefits-style-one .wf-cell > div:after,
+.static-line.benefits-style-two .benefits-inner:after {
+  left: 0;
+  margin-left: 0;
+}
+.benefits-grid p,
+.benefits-grid ul,
+.benefits-grid ol {
+  margin-bottom: 0;
+}
+.benefit-title a {
+  display: inline-block;
+}
+.benefits-grid-ico {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.icons-bg .benefits-grid-ico {
+  margin: 0 auto 20px auto;
+}
+.benefits-style-one.benefits-grid .benefits-grid-ico {
+  margin: 0 12px 10px 0;
+}
+.benefits-style-two.benefits-grid .benefits-grid-ico {
+  margin: 5px 22px 0 0;
+}
+.benefits-style-one.benefits-grid.icons-bg .benefits-grid-ico,
+.benefits-style-two.benefits-grid.icons-bg .benefits-grid-ico {
+  text-align: center;
+}
+a.benefits-grid-ico {
+  -webkit-transition: background-color 250ms ease;
+  transition: background-color 250ms ease;
+}
+a.benefits-grid-ico > i[class^="fa"],
+a.benefits-grid-ico > i[class^="fa"]:before {
+  -webkit-transition: color 250ms ease;
+  transition: color 250ms ease;
+}
+.content .benefits-grid-ico > img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  line-height: 0;
+}
+.benefits-grid a {
+  text-decoration: none;
+}
+#page .light-bg.icons-bg .benefits-grid-ico,
+#page .light-hover-bg.icons-bg a.benefits-grid-ico:hover {
+  background-color: rgba(120,125,133,0.1);
+  background-image: none;
+}
+#page .light-icon-color .benefits-grid-ico > i[class^="fa"],
+#page .light-icon-hover-color a.benefits-grid-ico:hover > i[class^="fa"],
+#page .light-icon-color .benefits-grid-ico > i[class^="fa"]:before,
+#page .light-icon-hover-color a.benefits-grid-ico:hover > i[class^="fa"]:before {
+  color: #adb0b6;
+  background: none;
+}
+#page .icons-bg.accent-bg .benefits-grid-ico,
+#page .icons-bg.accent-hover-bg a.benefits-grid-ico:hover,
+.hover-line .benefit-line-decoration:after,
+.benefits-style-one.hover-line .wf-cell > div:after,
+.benefits-style-two.hover-line .wf-cell .benefits-inner:after {
+  color: #fff;
+  background-color: #1ebbf0;
+}
+#page .icons-bg.accent-bg .benefits-grid-ico,
+#page .icons-bg.accent-hover-bg a.benefits-grid-ico:hover {
+  background-color: #1ebbf0;
+}
+#page .accent-icon-color .benefits-grid-ico > i[class^="fa"],
+#page .accent-icon-color .benefits-grid-ico > i[class^="fa"]:before,
+#page .accent-icon-hover-color a.benefits-grid-ico:hover > i[class^="fa"],
+#page .accent-icon-hover-color a.benefits-grid-ico:hover > i[class^="fa"]:before,
+#page .benefit-title a:hover {
+  color: #1ebbf0;
+}
+#page .stripe .accent-icon-color .benefits-grid-ico > i[class^="fa"],
+#page .stripe .accent-icon-color .benefits-grid-ico > i[class^="fa"]:before,
+#page .stripe .accent-icon-hover-color a.benefits-grid-ico:hover > i[class^="fa"],
+#page .stripe .accent-icon-hover-color a.benefits-grid-ico:hover > i[class^="fa"]:before,
+#page .stripe .benefit-title a:hover {
+  color: #1ebbf0;
+}
